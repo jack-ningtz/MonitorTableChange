@@ -1,0 +1,12 @@
+D:\LearnSTL\FixtureService\bin\Debug\FixtureService.pdb
+D:\LearnSTL\FixtureService\bin\Debug\System.ComponentModel.Annotations.dll
+D:\LearnSTL\FixtureService\bin\Debug\System.Data.Common.dll
+D:\LearnSTL\FixtureService\bin\Debug\System.Data.SqlClient.dll
+D:\LearnSTL\FixtureService\bin\Debug\TableDependency.SqlClient.dll
+D:\LearnSTL\FixtureService\obj\Debug\FixtureService.csproj.CoreCompileInputs.cache
+D:\LearnSTL\FixtureService\obj\Debug\FixtureService.csproj.CopyComplete
+D:\LearnSTL\FixtureService\obj\Debug\FixtureService.pdb
+D:\LearnSTL\FixtureService\obj\Debug\FixtureService.csproj.AssemblyReference.cache
+D:\LearnSTL\FixtureService\bin\Debug\FixtureService.exe.config
+D:\LearnSTL\FixtureService\bin\Debug\FixtureService.exe
+D:\LearnSTL\FixtureService\obj\Debug\FixtureService.exe
