@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://tempuri.org/" elementFormDefault="qualified" targetNamespace="http://tempuri.org/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://localhost:8090/FixtureTickerService/?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/FixtureService.Model" />
+  <xs:element name="Subscribe">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SubscribeResponse">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Unsubscribe">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="UnsubscribeResponse">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetAllFixtures">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetAllFixturesResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q1="http://schemas.datacontract.org/2004/07/FixtureService.Model" minOccurs="0" name="GetAllFixturesResult" nillable="true" type="q1:ArrayOfFixture" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="PublishFixturehange">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="SerialNo" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="FixtureName" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="UseCount" type="xs:long" />
+        <xs:element minOccurs="0" name="CycleCount" type="xs:long" />
+        <xs:element minOccurs="0" name="CeilingCount" type="xs:long" />
+        <xs:element minOccurs="0" name="LineId" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="PublishFixturehangeResponse">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="FixtureChange">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="SerialNo" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="FixtureName" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="UseCount" type="xs:long" />
+        <xs:element minOccurs="0" name="CycleCount" type="xs:long" />
+        <xs:element minOccurs="0" name="CeilingCount" type="xs:long" />
+        <xs:element minOccurs="0" name="LineId" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="FixtureChangeResponse">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

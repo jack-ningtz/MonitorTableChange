@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="b12fd51c-6582-423e-9b05-03a0f203e55d" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:8090/FixtureTickerService/" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="FixtureTicker.wsdl" MetadataType="Wsdl" ID="27883684-72bc-4ffd-b2c9-84e21d5d7013" SourceId="1" SourceUrl="http://localhost:8090/FixtureTickerService/?wsdl" />
+    <MetadataFile FileName="item.disco" MetadataType="Disco" ID="a6df4b9f-01cb-4f84-8112-4b043d13b582" SourceId="1" SourceUrl="http://localhost:8090/FixtureTickerService/?disco" />
+    <MetadataFile FileName="item.xsd" MetadataType="Schema" ID="c4d72ac3-622c-4917-940d-e21dd74fa229" SourceId="1" SourceUrl="http://localhost:8090/FixtureTickerService/?xsd=xsd1" />
+    <MetadataFile FileName="item1.xsd" MetadataType="Schema" ID="b9ddddac-3ea5-4551-9e8d-0f5418eb8ea4" SourceId="1" SourceUrl="http://localhost:8090/FixtureTickerService/?xsd=xsd0" />
+    <MetadataFile FileName="item2.xsd" MetadataType="Schema" ID="bdceadaf-6f9c-4e53-bbae-fc920f120763" SourceId="1" SourceUrl="http://localhost:8090/FixtureTickerService/?xsd=xsd2" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
